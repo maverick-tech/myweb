@@ -7,7 +7,7 @@ import (
 )
 
 func webHandlerFunc(writer http.ResponseWriter, request *http.Request) {
-	fmt.Fprint(writer, "<h1>Hello, World</h1> <h6>bug</h6>")
+	fmt.Fprint(writer, "<h1>Hello, World</h1>")
 }
 
 func GetPort() (port string){
